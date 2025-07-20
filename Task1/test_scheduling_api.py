@@ -1,5 +1,5 @@
 from datetime import datetime
-from scheduling_api import Event, SchedulingAPI
+from empty_scheduling_api import Event, SchedulingAPI
 
 def test_scheduling_api():
     # Create a scheduling API

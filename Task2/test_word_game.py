@@ -1,4 +1,4 @@
-from word_game import WordGuessingGame
+from empty_word_game import WordGuessingGame
 
 def test_word_game():
     # Test initialization with valid and invalid words
