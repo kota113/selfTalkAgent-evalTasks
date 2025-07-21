@@ -32,5 +32,5 @@
 テストスクリプトを実行してゲームの動作を確認します：
 
 ```
-python Task2/test_word_game.py
+python3 Task2/test_word_game.py
 ```
