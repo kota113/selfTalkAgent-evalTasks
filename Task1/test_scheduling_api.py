@@ -33,7 +33,7 @@ def test_scheduling_api():
     # Add events to the API
     print("Adding meeting1:", api.add_event(meeting1))  # Should succeed
     print("Adding meeting2:", api.add_event(meeting2))  # Should succeed
-    print("Adding meeting3:", api.add_event(meeting3))  # Should succeed
+    print("Adding meeting3:", api.add_event(meeting3))  # Should fail
     
     # Create a conflicting event (same location, overlapping time)
     conflict1 = Event(
